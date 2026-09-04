@@ -7,7 +7,6 @@ x1, x2 = sp.symbols('x1 x2', real=True)
 f_sym = (x1 + x2)**6 - 2*(x1 + x2) - 7
 
 x0 = (0.5, 0.5)
-# new
 # сетка
 x1_vals = np.linspace(0, 1, 20)
 x2_vals = np.linspace(0, 1, 20)
