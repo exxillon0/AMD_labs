@@ -1,10 +1,6 @@
 import numpy as np
 
-p = 4
-q = 4
 n = 3
-lambda_ = 0
-mu = 2
 T = [3, 4, 1, 2]
 
 A = np.random.rand(n, n, n, n)
